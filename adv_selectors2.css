@@ -1,0 +1,19 @@
+
+
+a{
+	padding-left: 22px;
+	text-decoration: none;
+}
+
+a[href="http://umich.edu/"]{
+	background-color: #123456;
+}
+
+a[href$=".in"]{
+	background-color: #abcdef;
+}
+
+a[href$=".edu"]{
+	background-color: #45321f;
+}
+

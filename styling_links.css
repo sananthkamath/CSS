@@ -1,0 +1,29 @@
+h2{
+	text-align: center;
+}
+a{
+	margin: 0 auto;
+	background-color: #ff00ff;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	width: 150px;
+	color: #ffffff;
+	padding: 5px;
+	margin-top: 5px;
+	text-decoration: none;
+}
+
+a:hover{
+	background-color: #b3b3b3;
+	color: #0006cc;
+}
+
+a:focus{
+	background-color: #b3b3b3;
+	color: #0006cc;
+}
+
+a:active{
+	border: 10px inset #000000;/* This attribute doesnt show up, because anyway it has to go to a new page on a click*/
+}

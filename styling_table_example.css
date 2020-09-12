@@ -1,0 +1,55 @@
+table{
+	background-color: #FFFFFF;
+	border: 3px solid #000000;
+	border-radius: 0 0 25px 25px;
+	border-spacing: 0;
+}
+.cal th{
+	background-color: #FF67FF;
+	margin: 2px;
+	text-align: center;
+}
+.cal caption{
+	background-color: #123456;
+	color: #FFFFFF;
+	font-variant: small-caps;
+	font-size: 150%;
+	border-radius: 25px 25px 0 0;
+}
+.cal td{
+	width: 120px;
+	height: 75px;
+	vertical-align: top;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.diff{
+	background-color: #1234ff;
+	opacity: 0.5;
+	/*background-image: url("")*/
+}
+
+.odd{
+	background-color: #eeeeee;
+}
+
+#first{
+	border-radius: 0 0 0 25px;
+}
+
+#last{
+	border-radius: 0 0 25px 0;
+}
+
+.cal span{
+	visibility: hidden;
+	padding-top: 2px;
+	display: block;
+	text-align: center;
+}
+
+td:hover span{
+	color: #23FF67;
+	visibility: visible;
+}

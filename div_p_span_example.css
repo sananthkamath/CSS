@@ -1,0 +1,18 @@
+span{
+	height: 75px;
+	width: 50px;
+	background: #ff0000;
+	display: inline-block;
+}
+
+div{
+	height: 100px;
+	width: 40%;
+	background: #00ff00;
+}
+
+p{
+	height: 100px;
+	width: 200px;
+	background: #0000ff;
+}

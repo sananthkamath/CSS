@@ -1,0 +1,80 @@
+body{
+	background-color: rgba(0, 0, 0, 0.1);
+	margin: 4%;
+}
+
+h1{
+	font-size: 250%;
+	text-align: center;
+}
+
+header.pro{
+	background-color: #aaaddd;
+	text-align: center;
+	padding: 5px;
+	background-image: url("images/flywheel.jpg");
+}
+
+h1{
+	color: #ffffff;
+}
+
+nav
+{
+	font-variant: small-caps;
+	font-size: 150%;
+	font-style: italic;
+	font-family: Arial, "Comic Sans MS", "Times New Roman";
+}
+
+nav a{
+	display: inline-block;
+	width: 22%;
+	background-color: #ffffff;
+	padding: 10px;
+}
+
+h2{
+	font-variant: small-caps;
+	/*background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/tick_2.png');*/
+	font-style: normal;
+	font-family: Cambria;
+	padding-left: 40px;
+	/*background-color: #67b11c;*/
+	background: #0066ff url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/tick_2.png") 10px  no-repeat;
+}
+
+section.half{
+	width: 45%;
+	display: inline-block;
+	float: left;
+	margin-right: 2%;
+}
+
+section.whole{
+	clear: both;
+}
+
+details{
+	font-style: oblique;
+}
+
+summary{
+	font-style: normal;
+}
+
+footer{
+	background-color: #aaaddd;
+	clear: both;
+}
+
+header, footer{
+	/*background: -webkit-linear-gradient(#0077ff 0%, #999999 10%);
+	background: -moz-linear-gradient(#0077ff 0%, #999999 0%);
+	background: -o-linear-gradient(#0077ff 0%, #999999 0%);*/
+	background: linear-gradient(#0077ff 0%, #999999 50%);/* This is enough for my version of chrome browser*/
+}
+
+img{
+	width: 100px;
+}

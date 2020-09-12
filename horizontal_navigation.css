@@ -1,0 +1,88 @@
+body{
+	margin: 1.5%;
+
+}
+
+h1{
+	font-family: "Berlin Sans FB";
+	font-size: 250%;
+	margin-top: 0;
+}
+
+nav{
+	box-sizing: border-box;
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+	background-color: #003456;
+	overflow: auto;
+	border-radius: 10px;
+
+}
+
+nav a{
+	display: inline-block;
+	color: #000000;
+	background-color: #ffffff;
+	width: 10%;
+	margin: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	height: 40px;
+	padding-top: 23px;
+	padding-left: 21px;
+	border-radius: 25px;
+	font-family: "Berlin Sans FB";
+	text-decoration: none;
+	transition-property: color, background-color, border-radius;
+	
+}
+
+section{
+	margin-top: 0.5%;
+	padding-left: 1%;
+	display: block
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	background-color: #dddddd;
+	border-radius: 10px;
+}
+
+p{
+	font-family: Cambria;
+}
+
+a.mail{
+	background: url("file:///C:/Users/S%20Anantha%20Kamath/Desktop/Coursera/Introduction%20to%20CSS3/images/gmail_logo.png") 9px 15px no-repeat;
+	background-color: #FFFFFF;
+}
+
+a.ig{
+	background: url("file:///C:/Users/S%20Anantha%20Kamath/Desktop/Coursera/Introduction%20to%20CSS3/images/ig_logo.png") 13px 15px no-repeat;
+	background-color: #FFFFFF;
+}
+
+
+a.fb{
+	background: url("file:///C:/Users/S%20Anantha%20Kamath/Desktop/Coursera/Introduction%20to%20CSS3/images/facebook_logo.png") 13px 15px no-repeat;
+	background-color: #FFFFFF;
+}
+
+a.gh{
+	background: url("file:///C:/Users/S%20Anantha%20Kamath/Desktop/Coursera/Introduction%20to%20CSS3/images/github_logo.png") 6px 15px no-repeat;
+	background-color: #FFFFFF;
+}
+
+a:hover{
+
+	border-radius: 0px;
+	background-color: #eeeeee;
+	color: #003456;
+	transition-duration: .5s;
+	transition-timing-function: ease;
+	transition-delay: .2s;
+
+}

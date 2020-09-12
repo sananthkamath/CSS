@@ -1,0 +1,38 @@
+nav a{
+	background-color: #0000ff;
+	color: #ffffff;
+	margin-right: 10px;
+	width: 100px;
+	text-align: center;
+	display: inline-block;
+}
+
+nav a.current{
+	font-variant: small-caps;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Cambria;
+
+}
+
+a.voltage{
+	font-variant: small-caps;
+	font-style: italic;
+	font-weight: bold;
+	font-family: Monteserrat;
+	color: #dddddd;
+	background-color: #161616;
+	text-decoration: none;
+}
+
+a.current:hover{
+	background-color: #0fd125;
+}
+
+a[href="#sec"]{
+	background-color: lightblue;
+}
+
+/**{
+	border: 2px solid black;
+}*/

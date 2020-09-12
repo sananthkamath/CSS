@@ -1,0 +1,13 @@
+p{
+  color: red;
+  padding:10px 5px;
+  
+}
+.fancy{
+  font-family: cursive;
+  color: green;
+}
+.plain{
+  font-family: Times, serif;
+  color: black;
+} 
